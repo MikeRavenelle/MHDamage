@@ -93,7 +93,7 @@ foreach ($monsterData as $monster) {
 
         }
 
-        $stagger = $monsterZones[8];
+        //$stagger = $monsterZones[8];
         $elementHitzone = $elementHitzone/100;
         $rawHitzone = $rawHitzone/100;
     }

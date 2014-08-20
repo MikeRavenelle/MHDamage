@@ -114,8 +114,8 @@
             type: 'post',
             data: formData,
             success: function (data) {
-                results = JSON.parse(data);
-                $("#results").html("Raw Damage: " + results['raw'] +"<br>" + "Element Damage: " + results['element'] +"<br>" + "Total Damage: " + (results['raw'] + results['element']) +"<br>");
+                data = JSON.parse(data);
+                $("#results").html("Raw Damage: " + data['raw'] +"<br>" + "Element Damage: " + data['element'] +"<br>" + "Total Damage: " + (data['raw'] + data['element']) +"<br>");
             }
 
         });
